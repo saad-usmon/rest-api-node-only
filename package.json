@@ -1,0 +1,19 @@
+{
+  "name": "node-rest-api",
+  "version": "1.0.0",
+  "description": "Building REST API with nodejs only",
+  "main": "app.js",
+  "author": "Saad-Carnix",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
